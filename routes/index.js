@@ -19,7 +19,7 @@ router.post('/wakeup', function(req, res, next) {
             var failure = {
                 type: 'wakeup',
                 data: 'status',
-                result: 'success',
+                result: 'failure',
             };
             res.send(failure);
         } else {
